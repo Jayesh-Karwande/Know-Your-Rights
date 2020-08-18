@@ -1,0 +1,102 @@
+.heading{
+    font-family: Georgia, serif;
+    font-variant: small-caps;
+    width: 65%;
+    margin-left: 10%;
+    font-size: 150%;
+    background: antiquewhite;
+    border-bottom: 1px solid #989EA4;
+    border-top: 1px solid #717D85;
+    border-left: 1px solid #717D85;
+    border-right: 1px solid #717D85;
+    color: #darkgray;
+    padding: 5px 0 5px 5%;
+    top: 10px;
+    border-radius: 8px;
+    margin-bottom: 22px;
+}
+
+.entry{
+    font-family: sans-serif;
+}
+
+.entry .posttitle{
+    font-family: 'Bitter', serif;
+}
+
+.entry:hover{
+  background: #ffffcc;
+  border-radius: 8px;
+}
+
+.menu-holder li{
+    font-size: 150%;
+    /* padding-left: 1%; */
+}
+
+.flexbox1{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5%;
+}
+
+.flexbox_entries{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.content_bullets{
+    list-style-type:circle;
+}
+
+.target_group{
+    font-style: oblique;
+}
+
+
+.form-heading{
+    font-size: 85%;
+    color: dimgray;
+    display: block;
+}
+
+form > div{
+    display:block;
+}
+
+.form-input{
+    background: whitesmoke;
+    color: darkred;
+}
+
+.form-input-div{
+    margin: 0.5% 0 0.5% 25%;
+    width: 40%;
+}
+.form-input:focus{
+    background: white;
+}
+
+.form-heading{
+    color: #606060;
+    font-family: sans-serif;
+    font-variant:small-caps;
+    font-weight:700;
+}
+
+.form-required-marker{
+    color: red;
+}
+
+.form-actions-submit{
+    display:inline-block;
+}
+
+form fieldset{
+    background: ghostwhite;
+    padding: 2% 0 2% 2%;
+    width: 60%;
+}
